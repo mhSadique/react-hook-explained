@@ -1,9 +1,9 @@
 
-## useEffect
+# useEffect
 
 useEffect ( () => { }, [ ] );
 
-Things to learn about useEffect hook:
+## Things to learn about useEffect hook:
 
 01. This hook runs a function on every render of the component but we can control it
 02. It runs the function initially when the component first renders
@@ -16,3 +16,5 @@ Things to learn about useEffect hook:
 02. We can set dependencies by putting an array [] as the second parameter of the useEffect hook
 03. If the array [] is empty, useEffect runs the function inside it once on the initial render and not after state/data change
 04. But if we want to run the function on certain condition(s) like any data/state change, we can set the data/state as the item(s) of the dependency array like useEffect ( () => { }, [state, data] )
+
+This link can be very useful for learning useEffect *** https://dmitripavlutin.com/react-useeffect-explanation/
