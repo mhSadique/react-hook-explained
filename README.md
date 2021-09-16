@@ -17,7 +17,16 @@ useEffect ( () => { }, [ ] );
 03. If the array [] is empty, useEffect runs the function inside it once on the initial render and not after state/data change
 04. But if we want to run the function on certain condition(s) like any data/state change, we can set the data/state as the item(s) of the dependency array like useEffect ( () => { }, [state, data] )
 
-## Useful sources
+## Useful resources to learn useEffect
 
 01. This link can be very useful for learning useEffect:  https://dmitripavlutin.com/react-useeffect-explanation/
 02. React's own document on useEffect:  https://reactjs.org/docs/hooks-effect.html
+
+
+# useRef
+
+const refContainer = useRef(initialValue);
+
+## Things to learn about useRef hook:
+01. useRef(initialValue) accepts one argument as the initial value and returns a reference (aka ref). A reference is an object having a special property "current".
+02. There are 2 rules to remember about references: <b>(i)</b> The value of the reference is persisted (stays the same) between component re-renderings; <b>(ii)</b> Updating a reference doesn’t trigger a component re-rendering.
