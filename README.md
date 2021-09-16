@@ -44,7 +44,7 @@ You can store inside a reference infrastructure data of side effects. For exampl
 Another useful application of the useRef() hook is to access DOM elements. This is performed in 3 steps:
 
 1. Define the reference to access the element: const elementRef = useRef();
-2. Assign the reference to ref attribute of the element: <div ref={elementRef}></div>;
+2. Assign the reference to ref attribute of the element: &lt;div ref={elementRef}&gt;&lt;/div&gt;;
 3. After mounting, elementRef.current points to the DOM element
 
 ## Ref is null on initial rendering
