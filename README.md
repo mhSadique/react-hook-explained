@@ -52,4 +52,12 @@ During initial rendering React still determines what is the output of the compon
 
 ## Useful resources for learning useRef
 01. https://dmitripavlutin.com/react-useref-guide/
-02. React's doc on it: https://reactjs.org/docs/hooks-reference.html#useref
+02. https://reactjs.org/docs/hooks-reference.html#useref
+03. https://reactjs.org/docs/refs-and-the-dom.html
+
+#useState 
+
+## Useful resources for learning useState
+These resources should be enough for learning useState
+01. https://dmitripavlutin.com/react-usestate-hook-guide/
+02. https://reactjs.org/docs/hooks-state.html
