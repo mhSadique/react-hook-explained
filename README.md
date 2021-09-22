@@ -9,7 +9,7 @@ useEffect ( ( ) => { }, [ ] );
 02. It runs the function initially when the component first renders
 03. It also runs the function when the state changes. That's because the componet re-renders due to data/state change
 04. This hook is a way to run code on every render 
-05. We can use this hook for fetching data, communicate with authentication services etc. These are called 'side effects' in React
+05. We can use this hook for fetching data, communicate with authentication services, manipulating DOM directly, using timer functions like setTimeout() etc. These are called 'side effects' in React
 
 ## useEffect dependencies
 01. If we don't want to run the function inside useEffect ( ) on 'every render', we can set dependencies
