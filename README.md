@@ -16,6 +16,7 @@ useEffect ( ( ) => { }, [ ] );
 02. We can set dependencies by putting an array [ ] as the second parameter of the useEffect hook
 03. If the array [ ] is empty, useEffect runs the function inside it once on the initial render and not after state/data change
 04. But if we want to run the function on certain condition(s) like any data/state change, we can set the data/state as the item(s) of the dependency array like useEffect ( ( ) => { }, [state, data] )
+05. If we don't provide the dependency array, useEffect hook runs the function on every render
 
 ## Useful resources for learning useEffect
 
