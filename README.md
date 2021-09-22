@@ -22,6 +22,7 @@ useEffect ( ( ) => { }, [ ] );
 
 01. This link can be very useful for learning useEffect:  https://dmitripavlutin.com/react-useeffect-explanation/
 02. React's own document on useEffect:  https://reactjs.org/docs/hooks-effect.html
+03. How to Solve the Infinite Loop of React.useEffect(): https://dmitripavlutin.com/react-useeffect-infinite-loop/
 
 
 # useRef
