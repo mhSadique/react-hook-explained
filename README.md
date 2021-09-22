@@ -63,3 +63,8 @@ During initial rendering React still determines what is the output of the compon
 These resources should be enough for learning useState
 01. https://dmitripavlutin.com/react-usestate-hook-guide/
 02. https://reactjs.org/docs/hooks-state.html
+
+# Others
+
+## Tips 
+01. 5 Mistakes to Avoid When Using React Hooks: https://dmitripavlutin.com/react-hooks-mistakes-to-avoid/
