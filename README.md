@@ -64,6 +64,13 @@ These resources should be enough for learning useState
 01. https://dmitripavlutin.com/react-usestate-hook-guide/
 02. https://reactjs.org/docs/hooks-state.html
 
+# useCallback 
+
+## Useful resources for learning useCallback
+These resources should be enough for learning useCallback
+01. https://dmitripavlutin.com/dont-overuse-react-usecallback/
+02. https://kentcdodds.com/blog/usememo-and-usecallback/
+
 # Others
 
 ## Tips 
